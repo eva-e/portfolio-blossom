@@ -9,16 +9,16 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ffcd42;
-  --secondary-color: #ffd35c;
+  --primary-color: #fd93d3;
+  --secondary-color: #7bf8a5;
   --bg-primary: #ffffff;
   --text-color: #222222;
   --text-color-two: #ffffff;
-  --bg-secondary: #000000;
+  --bg-secondary: #ffa1d5;
   --card-background: #f4f4f4;
-  --bg-secondary-two: #111111;
+  --bg-secondary-two: #ff9ad5;
 
-  --shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  --shadow: 0 10px 40px rgba(255, 143, 219, 0.2);
 
   /* Font Weight */
   --weight-small: 400;
@@ -105,7 +105,7 @@ body {
 
 .navbar #logo img {
   display: block;
-  width: 40px;
+  width: 150px;
 }
 
 .navbar .btn {
@@ -152,7 +152,7 @@ body {
   }
 
   to {
-    transform: translateY(-10px);
+    transform: translateY(-3px);
   }
 }
 
