@@ -3,16 +3,16 @@
 </p>
 
 ## Design Portfolio Website
-<h3 align="left">🍀My Design Portfolio & Personal Website | Digital Media Designer🌸</h3>
+<p align="left">🍀My Design Portfolio & Personal Website | Digital Media Designer🌸</p>
 
 
-## Author
-<h3 align="left">🌸 Evanthia (Eva) Evgenidis</h3>
+## Author 
+<p align="left">🌸 Evanthia (Eva) Evgenidis</p>
 
 
 ## Attributions
-<h3 align="left"> Copyright © evanthia | Feb 12 2025 | Communitypro <span id="datee"></span> | All
-          rights reserved</h3>
+<p align="left"> Copyright © evanthia | Feb 12 2025 | Communitypro <span id="datee"></span> | All
+          rights reserved</p>
 <br><br>
 
 <p align="center">
