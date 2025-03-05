@@ -10,11 +10,20 @@
   margin: 0 auto;
   padding: 1rem 2rem;
 }
-
-h1::selection,
-h2::selection {
-  color: #111;
-  background: var(--primary-color);
+/* Home Heading 1 */
+h1 {
+  font-size: 1.1rem;
+  margin-top: 14px;
+}
+/* Home Heading 2 */
+h2 {
+  font-size: 0.9rem;
+  margin-top: 9px;
+}
+/* All Page headings, About, Projects, Photography */
+h3 {
+  font-size: 1rem;
+  margin-top: 9px;
 }
 
 /* Buttons */
@@ -33,7 +42,7 @@ h2::selection {
 }
 
 .btn-secondary {
-  margin: 5px 0;
+  margin: 15px 17;
   background-color: var(--bg-secondary);
   color: var(--bg-primary);
 }
@@ -93,7 +102,7 @@ h2::selection {
 
 .content-text h2 {
   font-size: 3rem;
-  line-height: 1.2;
+  line-height: 0.5;
   transition: 0.2s ease-in-out;
 }
 

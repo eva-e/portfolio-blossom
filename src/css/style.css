@@ -5,16 +5,17 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
 
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #fd93d3;
-  --secondary-color: #7bf8a5;
-  --bg-primary: #ffffff;
-  --text-color: #222222;
+  --primary-color: #ff9ad5;
+  --secondary-color: #7fcca2;
+  --bg-primary: #fff5ed;
+  --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #ffa1d5;
+  --bg-secondary: #7fcca2;
   --card-background: #f4f4f4;
   --bg-secondary-two: #ff9ad5;
 
@@ -72,6 +73,16 @@ body {
   line-height: 1.5;
 }
 
+h1 {
+  font-family: "Libre Baskerville";
+  color: #7fcca2;
+}
+
+h2 {
+  font-family: "Libre Baskerville";
+  color: #f8adce;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -105,7 +116,7 @@ body {
 
 .navbar #logo img {
   display: block;
-  width: 150px;
+  width: 120px;
 }
 
 .navbar .btn {
@@ -152,7 +163,7 @@ body {
   }
 
   to {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
   }
 }
 
@@ -207,23 +218,32 @@ body {
 }
 
 /* Footer */
+/* #footer {
+  background: #f8b8cb;
+} */
+
 #footer {
-  background: #111111;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
 }
 
 #footer .container {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  min-height: 160px;
-  text-align: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: #7fcca2;
+  text-align: left;
+  width: 100%;
+  padding-left: 0px; /* Adds some spacing from the left */
 }
 
 #footer a {
   font-size: 0.8rem;
-  color: #fff;
+  color: #7fcca2;
 }
 
 #footer a:hover {
@@ -283,6 +303,7 @@ body {
   }
 
   .nav-menu .nav-link {
+    color: #7fcca2;
     font-size: 0.9rem;
     margin: 0 0.2rem;
   }
@@ -290,6 +311,7 @@ body {
   .nav-menu li {
     margin-bottom: 0.5rem;
     width: 100%;
+    text-align: center;
   }
 
   .nav-menu .btn {
