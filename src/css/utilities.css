@@ -42,7 +42,8 @@ h3 {
 }
 
 .btn-secondary {
-  margin: 15px 17;
+  position: relative;
+  top: -10px; /* Moves the button 10px up */
   background-color: var(--bg-secondary);
   color: var(--bg-primary);
 }

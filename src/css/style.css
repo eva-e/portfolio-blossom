@@ -80,7 +80,7 @@ h1 {
 
 h2 {
   font-family: "Libre Baskerville";
-  color: #f8adce;
+  color: #7fcca2;
 }
 
 /* Navbar */
@@ -112,6 +112,32 @@ h2 {
   margin: 0 1rem;
   font-size: 0.8rem;
   font-weight: var(--weight-semibold);
+}
+
+/* Hover effect: Small underline */
+.navbar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -3px; /* Adjusts underline position */
+  width: 0;
+  height: 2px;
+  background: var(--text-secondary); /* Line color */
+  transition: width 0.3s ease, left 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar .nav-link:hover::after {
+  width: 100%; /* Expands the underline */
+}
+
+/* Active link styling */
+.navbar .nav-link.active {
+  color: var(--text-secondary); /* Different color for active link */
+}
+
+.navbar .nav-link.active::after {
+  width: 100%; /* Ensures the underline is always visible */
 }
 
 .navbar #logo img {
@@ -148,7 +174,9 @@ h2 {
 #hero {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  height: 85vh; /* Full viewport height */
 }
 
 .profile-image {
@@ -238,7 +266,7 @@ h2 {
   color: #7fcca2;
   text-align: left;
   width: 100%;
-  padding-left: 0px; /* Adds some spacing from the left */
+  padding-left: -1px; /* Adds some spacing from the left */
 }
 
 #footer a {
@@ -264,7 +292,7 @@ h2 {
 }
 
 #footer p {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
 }
 
 /* Responsiveness */
