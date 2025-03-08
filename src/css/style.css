@@ -6,7 +6,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400;1,400&display=swap");
 /* variables */
 :root {
   /* Colors */
@@ -68,21 +68,26 @@ a {
 /* Main styling */
 body {
   background: var(--bg-primary);
-  color: #ffffff;
-  font-family: "Raleway", sans-serif;
+  color: #7fcca2;
+  font-family: "Libre Baskerville", sans-serif;
   line-height: 1.5;
 }
 /* Home Heading 1 */
 h1 {
-  font-family: "Libre Baskerville";
-  color: #7fcca2;
+  font-family: "Libre Baskerville", serif;
+  color: #53504c;
 }
 /* Home Heading 2 */
 h2 {
-  font-family: "Libre Baskerville";
-  color: #7fcca2;
+  font-family: "Libre Baskerville", serif;
+  color: #53504c;
+  letter-spacing: 1px;
 }
 /* All my page headings, About, Projects, Photography */
+h3 {
+  font-family: "Libre Baskerville";
+  color: #ffffff;
+}
 
 /* Navbar */
 .navbar {
@@ -107,43 +112,20 @@ h2 {
   display: flex;
   align-items: center;
   background: var(--bg-primary);
+  font-family: "Libre Baskerville", serif;
+  letter-spacing: 1px;
 }
 
 .navbar .nav-link {
   margin: 0 1rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: var(--weight-semibold);
-}
-
-/* Hover effect: Small underline */
-.navbar .nav-link::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  bottom: -3px; /* Adjusts underline position */
-  width: 0;
-  height: 2px;
-  background: var(--text-secondary); /* Line color */
-  transition: width 0.3s ease, left 0.3s ease;
-  transform: translateX(-50%);
-}
-
-.navbar .nav-link:hover::after {
-  width: 100%; /* Expands the underline */
-}
-
-/* Active link styling */
-.navbar .nav-link.active {
-  color: #ff9ad5; /* Different color for active link */
-}
-
-.navbar .nav-link.active::after {
-  width: 100%; /* Ensures the underline is always visible */
+  color: #356c4d;
 }
 
 .navbar #logo img {
   display: block;
-  width: 120px;
+  width: 110px;
 }
 
 .navbar .btn {
@@ -213,7 +195,7 @@ h2 {
   align-self: center;
   margin: 2rem 0;
 }
-
+/* grid display of projects */
 .project {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
