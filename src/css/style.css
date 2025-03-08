@@ -120,7 +120,7 @@ h3 {
   margin: 0 1rem;
   font-size: 0.7rem;
   font-weight: var(--weight-semibold);
-  color: #356c4d;
+  color: #5ea27d;
 }
 
 .navbar #logo img {
@@ -246,7 +246,7 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  color: #7fcca2;
+  color: #5ea27d;
   text-align: left;
   width: 100%;
   padding-left: -1px; /* Adds some spacing from the left */
