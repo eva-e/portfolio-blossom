@@ -157,9 +157,9 @@ h3 {
 #hero {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centers content vertically */
-  align-items: center; /* Centers content horizontally */
-  height: 85vh; /* Full viewport height */
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
 }
 
 .profile-image {
@@ -249,7 +249,7 @@ h3 {
   color: #5ea27d;
   text-align: left;
   width: 100%;
-  padding-left: -1px; /* Adds some spacing from the left */
+  padding-left: -1px;
 }
 
 #footer a {
@@ -277,8 +277,6 @@ h3 {
 #footer p {
   font-size: 0.6rem;
 }
-
-/* Responsiveness */
 
 @media (max-width: 1000px) {
   .project {
