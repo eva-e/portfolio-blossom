@@ -11,7 +11,7 @@
 
 
 ## Attributions
-<p align="left"> Copyright © evanthia | Feb 12 2025 | Communitypro <span id="datee"></span> | All
+<p align="left"> Copyright © evanthia | 12 Feb 2025 | Communitypro <span id="datee"></span> | All
           rights reserved</p>
 <br><br>
 
