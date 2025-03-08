@@ -68,20 +68,21 @@ a {
 /* Main styling */
 body {
   background: var(--bg-primary);
-  color: var(--text-color);
+  color: #ffffff;
   font-family: "Raleway", sans-serif;
   line-height: 1.5;
 }
-
+/* Home Heading 1 */
 h1 {
   font-family: "Libre Baskerville";
   color: #7fcca2;
 }
-
+/* Home Heading 2 */
 h2 {
   font-family: "Libre Baskerville";
   color: #7fcca2;
 }
+/* All my page headings, About, Projects, Photography */
 
 /* Navbar */
 .navbar {
@@ -133,7 +134,7 @@ h2 {
 
 /* Active link styling */
 .navbar .nav-link.active {
-  color: var(--text-secondary); /* Different color for active link */
+  color: #ff9ad5; /* Different color for active link */
 }
 
 .navbar .nav-link.active::after {

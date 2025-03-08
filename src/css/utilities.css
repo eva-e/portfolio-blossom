@@ -43,14 +43,35 @@ h3 {
 
 .btn-secondary {
   position: relative;
-  top: -10px; /* Moves the button 10px up */
-  background-color: var(--bg-secondary);
-  color: var(--bg-primary);
+  top: -18px;
+  background-color: #ffbcd7af;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  max-width: 137px;
+  white-space: nowrap;
+  gap: 7px;
+  transition: all 0.3s ease-in-out;
 }
 
-/* add hover to resume button */
-.btn-primary:hover {
-  background: var(--secondary-color);
+.btn-secondary .btn-icon {
+  opacity: 0; /* Initially hidden */
+  transform: translateX(-5px); /* Move slightly left */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  position: relative;
+  top: 2px;
+}
+
+.btn-secondary .btn-icon img {
+  width: 15px; /* Adjust icon size */
+  height: auto;
+  top: 4px;
+}
+
+/* Show icon on hover */
+.btn-secondary:hover .btn-icon {
+  opacity: 1;
+  transform: translateX(0); /* Move back to normal position */
 }
 
 /* Dark mode toggle */
