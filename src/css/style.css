@@ -7,6 +7,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Baskervville:ital,wght@0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 /* variables */
 :root {
   /* Colors */
@@ -65,7 +68,7 @@ a {
   color: var(--text-color);
 }
 
-/* Main styling */
+/* Main styling use body for paragraph text*/
 body {
   background: var(--bg-primary);
   color: #7fcca2;
@@ -74,14 +77,17 @@ body {
 }
 /* Home Heading 1 */
 h1 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", serif;
   color: #53504c;
+  letter-spacing: 1px;
+  font-weight: 400;
 }
 /* Home Heading 2 */
 h2 {
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", serif;
   color: #53504c;
   letter-spacing: 1px;
+  font-weight: 400;
 }
 /* All my page headings, About, Projects, Photography */
 h3 {
@@ -112,7 +118,7 @@ h3 {
   display: flex;
   align-items: center;
   background: var(--bg-primary);
-  font-family: "Libre Baskerville", serif;
+  font-family: "Poppins", serif;
   letter-spacing: 1px;
 }
 
@@ -246,7 +252,6 @@ h3 {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  color: #5ea27d;
   text-align: left;
   width: 100%;
   padding-left: -1px;
@@ -254,7 +259,6 @@ h3 {
 
 #footer a {
   font-size: 0.8rem;
-  color: #7fcca2;
 }
 
 #footer a:hover {
@@ -276,6 +280,7 @@ h3 {
 
 #footer p {
   font-size: 0.6rem;
+  color: #5ea27d;
 }
 
 @media (max-width: 1000px) {
@@ -312,7 +317,7 @@ h3 {
   }
 
   .nav-menu .nav-link {
-    color: #7fcca2;
+    color: #5ea27d;
     font-size: 0.9rem;
     margin: 0 0.2rem;
   }
