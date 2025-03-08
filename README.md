@@ -2,7 +2,7 @@
   <img src="src/assets/logo.png" width="250">
 </p>
 
-## Design Portfolio Website
+## Design Portfolio Website (*Development in Progress*)
 <p align="left">🍀My Design Portfolio & Personal Website | Digital Media Designer🌸</p>
 
 
