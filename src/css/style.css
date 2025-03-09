@@ -282,6 +282,7 @@ h3 {
 #footer p {
   font-size: 0.6rem;
   color: #5ea27d;
+  font-family: "Poppins", sans-serif;
 }
 
 @media (max-width: 1000px) {
