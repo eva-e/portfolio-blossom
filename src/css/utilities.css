@@ -31,7 +31,7 @@ h3 {
   display: inline-block;
   padding: 0.75rem 1.9rem;
   border-radius: 20px;
-  font-size: 0.8rem;
+  font-size: 0.83rem;
   text-transform: uppercase;
   /* font-style: italic; */
   transition: 0.3s;
@@ -45,9 +45,11 @@ h3 {
 .btn-secondary {
   position: relative;
   top: -18px;
-  background-color: #ffbcd7c2;
-  color: #53504c;
+  background-color: #ffd4e2df;
+  /* text colour */
+  color: #fc8cb9ce;
   font-family: "Poppins";
+  font-weight: 600;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -55,9 +57,9 @@ h3 {
   transition: all 0.3s ease-in-out, border-color 0.3s ease-in-out;
 }
 
-/* Hover for about me button */
+/* Hover border colour for about me button */
 .btn-secondary:hover {
-  box-shadow: 0 0 0 4px #ffffff;
+  box-shadow: 0 0 0 4px #ffa3c8ce;
 }
 
 /* Dark mode toggle */

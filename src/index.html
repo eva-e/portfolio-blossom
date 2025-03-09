@@ -38,6 +38,8 @@
       content="https://user-images.githubusercontent.com/62628408/150613011-b78a7f5a-0af1-4312-aab0-0022e7258693.png"
     />
 
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <!-- Link -->
     <link
       rel="apple-touch-icon"
@@ -68,20 +70,28 @@
       sizes="512x512"
       href="assets/favicon/android-chrome-512x512.png"
     />
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link 
+      rel="icon" 
+      type="image/x-icon" 
+      href="assets/favicon/favicon.ico" />
+    <link 
+      rel="manifest" 
+      href="assets/favicon/site.webmanifest" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/utilities.css" />
+    <link 
+      rel="stylesheet" 
+      href="css/style.css" />
+    <link 
+      rel="stylesheet" 
+      href="css/utilities.css" />
   </head>
+  
   <body>
-    <div class="stars"></div>
-    <div class="shooting-stars"></div>
 
     <header id="hero">
       <!-- Navbar -->
@@ -94,28 +104,20 @@
             /></a>
           </h1>
           <!-- Navbar links -->
+          <!-- <ul class="nav-menu">
+            <li><a class="nav-link" href="index.html"><i data-lucide="home"></i></a></li>
+            <li><a class="nav-link" href="aboutme.html"><i data-lucide="user"></i></a></li>
+            <li><a class="nav-link" href="projects.html"><i data-lucide="folder"></i></a></li>
+            <li><a class="nav-link" href="photography.html"><i data-lucide="image"></i></a></li>
+        </ul> -->
           <ul class="nav-menu">
             <li><a class="nav-link" href="index.html">Home</a></li>
             <li><a class="nav-link" href="aboutme.html">About Me</a></li>
             <li><a class="nav-link" href="projects.html">Projects</a></li>
             <li><a class="nav-link" href="photography.html">Photography</a></li>
-            <!-- <li>
-              <a
-                class="nav-link btn btn-primary"
-                href="https://github.com/CommunityPro/portfolio-html"
-                >RESUME <i class="fas fa-arrow-right"></i
-              ></a>
-            </li> -->
-
-            <!-- Toggle switch
-            <div class="theme-switch">
-              <input type="checkbox" id="switch" />
-              <label class="toggle-icons" for="switch">
-                <img class="moon" src="assets/moon.svg" />
-                <img class="sun" src="assets/sun.svg" />
-              </label>
-            </div> -->
-            <!-- Hamburger menu -->
+          </ul>
+      
+           <!-- Hamburger Menu -->
           </ul>
           <div class="hamburger">
             <span class="bar"></span>
@@ -174,6 +176,12 @@
         </p>
       </div>
     </footer>
+
+    <script>
+      lucide.createIcons();
+    </script>
+
     <script src="js/script.js"></script>
+    
   </body>
 </html>

@@ -14,11 +14,11 @@
 :root {
   /* Colors */
   --primary-color: #ff9ad5;
-  --secondary-color: #7fcca2;
+  --secondary-color: #5ea27d;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #7fcca2;
+  --bg-secondary: #5ea27d;
   --card-background: #f4f4f4;
   --bg-secondary-two: #ff9ad5;
 
@@ -71,7 +71,7 @@ a {
 /* Main styling use body for paragraph text*/
 body {
   background: var(--bg-primary);
-  color: #7fcca2;
+  color: #5ea27d;
   font-family: "Libre Baskerville", sans-serif;
   line-height: 1.5;
   cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
@@ -79,14 +79,14 @@ body {
 /* Home Heading 1 */
 h1 {
   font-family: "Poppins", serif;
-  color: #53504c;
+  color: #5a4d43eb;
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
 }
 /* Home Heading 2 */
 h2 {
   font-family: "Poppins", serif;
-  color: #53504c;
+  color: #5a4d43eb;
   letter-spacing: 1px;
   font-weight: 400;
 }
@@ -103,7 +103,7 @@ h3 {
   left: 0;
   right: 0;
   z-index: 20;
-  background: var(--bg-primary);
+  background: transparent;
 }
 
 .navbar .container {
@@ -118,16 +118,23 @@ h3 {
 .navbar .nav-menu {
   display: flex;
   align-items: center;
-  background: var(--bg-primary);
-  font-family: "Poppins", serif;
+  background: transparent;
   letter-spacing: 1px;
 }
 
 .navbar .nav-link {
   margin: 0 1rem;
   font-size: 0.7rem;
-  font-weight: var(--weight-semibold);
+  font-weight: 500;
+  font-family: "Poppins";
   color: #5ea27d;
+  padding: 8px 9px;
+  border-radius: 20px;
+  padding: 8px 12px; /* Padding ensures space */
+}
+
+.navbar .nav-link:hover {
+  outline: 2px solid #ffd4e2df; /* Uses outline instead of border */
 }
 
 .navbar #logo img {
