@@ -31,7 +31,7 @@ h3 {
   display: inline-block;
   padding: 0.75rem 1.9rem;
   border-radius: 20px;
-  font-size: 0.999rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   /* font-style: italic; */
   transition: 0.3s;
@@ -58,13 +58,6 @@ h3 {
 /* Hover for about me button */
 .btn-secondary:hover {
   box-shadow: 0 0 0 4px #ffffff;
-}
-
-.btn-secondary .btn-icon {
-  width: 16px;
-  height: auto;
-  position: relative;
-  top: 1px;
 }
 
 /* Dark mode toggle */

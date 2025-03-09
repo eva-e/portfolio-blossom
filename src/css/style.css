@@ -74,6 +74,7 @@ body {
   color: #7fcca2;
   font-family: "Libre Baskerville", sans-serif;
   line-height: 1.5;
+  cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
 }
 /* Home Heading 1 */
 h1 {
