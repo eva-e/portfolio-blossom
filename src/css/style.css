@@ -13,14 +13,15 @@
 /* variables */
 :root {
   /* Colors */
-  --primary-color: #ff9ad5;
-  --secondary-color: #5ea27d;
+  /* #94de9a green */
+  --primary-color: #fe9ec5;
+  --secondary-color: #8cd393;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #5ea27d;
+  --bg-secondary: #8cd393;
   --card-background: #f4f4f4;
-  --bg-secondary-two: #ff9ad5;
+  --bg-secondary-two: #fe9ec5;
 
   --shadow: 0 10px 40px rgba(255, 143, 219, 0.2);
 
@@ -130,7 +131,7 @@ h3 {
   font-size: 0.7rem;
   font-weight: 500;
   font-family: "Poppins";
-  color: #72b777;
+  color: #8cd393;
   padding: 8px 9px;
   border-radius: 20px;
   padding: 8px 12px; /* Padding ensures space */
@@ -291,7 +292,7 @@ h3 {
 
 #footer p {
   font-size: 0.6rem;
-  color: #72b777;
+  color: #8cd393;
   font-family: "Poppins", sans-serif;
 }
 
