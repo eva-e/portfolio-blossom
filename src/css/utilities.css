@@ -48,7 +48,7 @@ h3 {
   top: -18px;
   background-color: #ffd4e2df;
   /* text colour */
-  color: #fc8cb9ce;
+  color: #fe9ec5;
   font-family: "Poppins";
   font-weight: 600;
   display: inline-flex;
@@ -60,7 +60,7 @@ h3 {
 
 /* Hover border colour for about me button */
 .btn-secondary:hover {
-  box-shadow: 0 0 0 4px #ffa3c8ce;
+  box-shadow: 0 0 0 4px #ffb3d1da;
 }
 
 /* Dark mode toggle */
