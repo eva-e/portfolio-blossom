@@ -15,11 +15,11 @@
   /* Colors */
   /* #94de9a green */
   --primary-color: #fe9ec5;
-  --secondary-color: #89cc8f;
+  --secondary-color: #88c98e;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #89cc8f;
+  --bg-secondary: #88c98e;
   --card-background: #f4f4f4;
   --bg-secondary-two: #fe9ec5;
 
@@ -72,7 +72,7 @@ a {
 /* Main styling use body for paragraph text*/
 body {
   background: var(--bg-primary);
-  color: #89cc8f;
+  color: #88c98e;
   font-family: "Libre Baskerville", sans-serif;
   line-height: 1.5;
   cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
@@ -131,7 +131,7 @@ h3 {
   font-size: 0.7rem;
   font-weight: 500;
   font-family: "Poppins";
-  color: #89cc8f;
+  color: #88c98e;
   padding: 8px 9px;
   border-radius: 20px;
   padding: 8px 12px; /* Padding ensures space */
