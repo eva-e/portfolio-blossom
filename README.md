@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/logo5.png" width="250">
+  <img src="src/assets/logo6.png" width="250">
 </p>
 
 ## Design Portfolio Website (*Development in Progress*)
