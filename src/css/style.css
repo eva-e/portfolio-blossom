@@ -124,6 +124,8 @@ h3 {
   align-items: center;
   background: #fff2ef;
   letter-spacing: 1px;
+  align-self: flex-end;
+  padding-bottom: 4px;
 }
 
 .navbar .nav-link {
@@ -346,8 +348,10 @@ h3 {
     text-align: center;
     margin-top: 0.5rem;
   }
-
+  /* change position of burger menu */
   .hamburger {
+    color: #88c98e;
+    margin-top: 16px;
     display: block;
     cursor: pointer;
     padding: 0.2rem 0.4rem;
