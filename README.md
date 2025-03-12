@@ -16,5 +16,5 @@
 <br><br>
 
 <p align="center">
-  <img src="src/assets/dangoeva.png" width="120">
+  <img src="src/assets/favicon.ico" width="120">
 </p>
