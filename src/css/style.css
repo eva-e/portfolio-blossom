@@ -15,11 +15,11 @@
   /* Colors */
   /* #94de9a green */
   --primary-color: #fe9ec5;
-  --secondary-color: #88c98e;
+  --secondary-color: #8dd799;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #88c98e;
+  --bg-secondary: #8dd799;
   --card-background: #f4f4f4;
   --bg-secondary-two: #fe9ec5;
 
@@ -72,7 +72,7 @@ a {
 /* Main styling use body for paragraph text*/
 body {
   background: var(--bg-primary);
-  color: #88c98e;
+  color: #8dd799;
   font-family: "Libre Baskerville", sans-serif;
   line-height: 1.5;
   cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
@@ -133,7 +133,7 @@ h3 {
   font-size: 0.7rem;
   font-weight: 500;
   font-family: "Poppins";
-  color: #88c98e;
+  color: #8dd799;
   padding: 8px 9px;
   border-radius: 20px;
   padding: 8px 12px; /* Padding ensures space */
@@ -294,7 +294,7 @@ h3 {
 
 #footer p {
   font-size: 0.6rem;
-  color: #88c98e;
+  color: #8dd799;
   font-family: "Poppins", sans-serif;
 }
 
@@ -332,7 +332,7 @@ h3 {
   }
 
   .nav-menu .nav-link {
-    color: #88c98e;
+    color: #8dd799;
     font-size: 0.9rem;
     margin: 0 0.2rem;
   }
@@ -350,7 +350,7 @@ h3 {
   }
   /* change position of burger menu */
   .hamburger {
-    color: #88c98e;
+    color: #8dd799;
     margin-top: 16px;
     display: block;
     cursor: pointer;
