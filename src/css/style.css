@@ -51,7 +51,7 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
-  overflow-y: scroll; /* Forces a scrollbar to always be present */
+  overflow-y: scroll;
 }
 
 /* Reset default styling */
@@ -81,7 +81,7 @@ body {
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensures the page takes full height */
+  min-height: 100vh;
   overflow-x: hidden;
   margin: 0;
 }
@@ -117,16 +117,16 @@ h3 {
 
 .avatar-container {
   display: flex;
-  align-items: center; /* Aligns avatar and text side by side */
-  width: 800px; /* Fixed width for consistency */
-  margin: 100px auto 0 300px; /* Centers and adds top margin */
-  gap: 100px; /* Space between avatar and text */
+  align-items: center;
+  width: 800px;
+  margin: 100px auto 0 300px;
+  gap: 100px;
 }
 
 .avatar-text {
   display: flex;
-  flex-direction: column; /* Stack text elements vertically */
-  text-align: left; /* Keeps text aligned left */
+  flex-direction: column;
+  text-align: left;
 }
 
 .avatar-text h1 {
@@ -178,7 +178,7 @@ h3 {
   color: #8dd799;
   padding: 8px 9px;
   border-radius: 20px;
-  padding: 8px 12px; /* Padding ensures space */
+  padding: 8px 12px;
 }
 
 .navbar .nav-link:hover {
