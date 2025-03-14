@@ -140,7 +140,7 @@ h3 {
 }
 
 .navbar .nav-link:hover {
-  outline: 2px solid #ffd4e2df; /* Uses outline instead of border */
+  outline: 2px solid #ffd4e1; /* outlines the link */
 }
 
 .navbar #logo img {

@@ -46,9 +46,10 @@ h3 {
 .btn-secondary {
   position: relative;
   top: -18px;
-  background-color: #ffd4e2df;
-  /* text colour */
-  color: #fe9ec5;
+  background-color: #ffd4e1e5;
+  /* text colour  */
+  color: #ff91b6;
+  /* fe9ec5 */
   font-family: "Poppins";
   font-weight: 600;
   display: inline-flex;
@@ -60,7 +61,7 @@ h3 {
 
 /* Hover border colour for about me button */
 .btn-secondary:hover {
-  box-shadow: 0 0 0 4px #ffb3d1da;
+  box-shadow: 0 0 0 4px #ffa4c2dd;
 }
 
 /* Dark mode toggle */
