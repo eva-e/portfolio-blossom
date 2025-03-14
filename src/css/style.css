@@ -14,14 +14,14 @@
 :root {
   /* Colors */
   /* #94de9a green */
-  --primary-color: #fe9ec5;
+  --primary-color: #ff91b6;
   --secondary-color: #8dd799;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
   --bg-secondary: #8dd799;
   --card-background: #f4f4f4;
-  --bg-secondary-two: #fe9ec5;
+  --bg-secondary-two: #ff91b6;
 
   --shadow: 0 10px 40px rgba(255, 143, 219, 0.2);
 
@@ -51,6 +51,7 @@
 html {
   font-size: 100%;
   scroll-behavior: smooth;
+  overflow-y: scroll; /* Forces a scrollbar to always be present */
 }
 
 /* Reset default styling */
@@ -73,11 +74,16 @@ a {
 body {
   background: var(--bg-primary);
   color: #8dd799;
-  font-family: "Libre Baskerville", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1.5;
   cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
   overflow-x: hidden;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensures the page takes full height */
+  overflow-x: hidden;
+  margin: 0;
 }
 
 /* Home Heading 1 */
@@ -96,8 +102,44 @@ h2 {
 }
 /* All my page headings, About, Projects, Photography */
 h3 {
-  font-family: "Libre Baskerville";
-  color: #ffffff;
+  font-family: "Poppins" serif;
+  color: #5a4d43eb;
+  font-weight: 300;
+}
+/* Avatar image */
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  outline: 5px solid #ffffff;
+}
+
+.avatar-container {
+  display: flex;
+  align-items: center; /* Aligns avatar and text side by side */
+  width: 800px; /* Fixed width for consistency */
+  margin: 100px auto 0 300px; /* Centers and adds top margin */
+  gap: 100px; /* Space between avatar and text */
+}
+
+.avatar-text {
+  display: flex;
+  flex-direction: column; /* Stack text elements vertically */
+  text-align: left; /* Keeps text aligned left */
+}
+
+.avatar-text h1 {
+  font-weight: 600;
+}
+
+.avatar-text h2 {
+  font-weight: 500;
+}
+
+.avatar-text h3 {
+  font-size: 0.8rem;
+  font-weight: 400;
 }
 
 /* Navbar */
@@ -179,7 +221,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  min-height: 85vh;
 }
 
 .profile-image {
@@ -254,7 +296,7 @@ h3 {
 } */
 
 #footer {
-  position: fixed;
+  margin-top: auto;
   bottom: 0;
   left: 0;
   width: 100%;
