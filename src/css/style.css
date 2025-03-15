@@ -212,10 +212,19 @@ h3 {
 
 /* Lucide icons */
 .social-links i {
-  stroke: #ff91b6;
+  display: inline-block;
   width: 30px;
   height: 30px;
+  stroke: #ff91b6;
   transition: stroke 0.3s ease;
+}
+
+.social-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: inherit;
 }
 
 @media (max-width: 768px) {
@@ -223,13 +232,6 @@ h3 {
     justify-content: center;
     margin-left: 0;
     stroke: #ff91b6;
-
-    .social-links i {
-      stroke: #ff91b6;
-      width: 30px;
-      height: 30px;
-      transition: stroke 0.3s ease;
-    }
   }
 }
 
