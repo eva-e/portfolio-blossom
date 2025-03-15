@@ -9,8 +9,8 @@
     <meta name="title" content="Home | Evanthia" />
     <meta name="description" content="Design Portfolio & Personal Website" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+
     <meta
       property="og:url"
       content="https://github.com/CommunityPro/portfolio-html"
@@ -90,7 +90,7 @@
       rel="stylesheet" 
       href="css/utilities.css" />
   </head>
-  
+
   <body>
 
     <header id="hero">
@@ -152,7 +152,9 @@
     </footer>
 
     <script>
-      lucide.createIcons();
+      document.addEventListener("DOMContentLoaded", function () {
+        lucide.createIcons(); 
+      });
     </script>
 
     <script src="js/script.js"></script>
