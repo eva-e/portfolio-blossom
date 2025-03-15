@@ -208,12 +208,14 @@ h3 {
   display: flex;
   justify-content: left;
   gap: 15px;
+  stroke: #ff91b6;
 }
 
 .social-links i {
   display: inline-block;
   width: 30px;
   height: 30px;
+  stroke: #ff91b6;
 }
 
 .social-links i svg {
