@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/eva-e/portfolio-blossom/issues"
   },
-  "homepage": "https://github.com/eva-e/portfolio-blossom#readme"
+  "homepage": "https://github.com/eva-e/portfolio-blossom#readme",
+  "dependencies": {
+    "lucide": "^0.482.0"
+  }
 }
