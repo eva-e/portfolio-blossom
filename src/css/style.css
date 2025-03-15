@@ -203,28 +203,24 @@ h3 {
   }
 }
 
-/* Social links */
+/* Social links container */
 .social-links {
   display: flex;
   justify-content: left;
   gap: 15px;
 }
 
-/* Lucide icons */
 .social-links i {
   display: inline-block;
   width: 30px;
   height: 30px;
-  stroke: #ff91b6;
-  transition: stroke 0.3s ease;
 }
 
-.social-links a {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  color: inherit;
+.social-links i svg {
+  width: 30px;
+  height: 30px;
+  stroke: #ff91b6;
+  transition: stroke 0.3s ease;
 }
 
 @media (max-width: 768px) {
