@@ -27,6 +27,12 @@ h3 {
   margin-top: 9px;
 }
 
+h4 {
+  font-size: 0.6rem;
+  margin-top: 9px;
+  font-style: italic;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;

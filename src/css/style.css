@@ -105,6 +105,14 @@ h3 {
   color: #5a4d43eb;
   font-weight: 300;
 }
+
+h4 {
+  font-family: "Poppins", serif;
+  color: #5a4d43eb;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
 /* For projects page tbc */
 .project-posts {
   display: grid;
@@ -121,7 +129,7 @@ h3 {
   object-fit: cover;
   outline: 4px solid #ffa7c5;
   align-self: flex-start;
-  margin-top: 45px;
+  margin-top: 47px;
   margin-left: 45px;
 }
 
