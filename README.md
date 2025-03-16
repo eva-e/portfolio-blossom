@@ -2,7 +2,7 @@
   <img src="src/assets/logo6.png" width="250">
 </p>
 
-## Design Portfolio Website (*Development in Progress*) (*Ελληνικό Website in Progress*)
+## Design Portfolio Website (*Development in Progress*)
 <p align="left">Δες το ψηφιακό μου πορτφόλιο με γραφιστικά έργα και ψηφιακά δημιουργικά πρότζεκτ.</p>
 <p align="left">🍀My Design Portfolio & Personal Website | Digital Media Designer🌸</p>
 
