@@ -33,6 +33,11 @@ h4 {
   font-style: italic;
 }
 
+h5 {
+  font-size: 0.8rem;
+  margin-top: 9px;
+}
+
 /* Buttons */
 .btn {
   display: inline-block;

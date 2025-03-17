@@ -76,7 +76,7 @@ body {
   color: #8dd799;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  cursor: url("../assets/favicon/favicon.ico") 2 1, auto;
+  cursor: url("../assets/favicon/favicon2.ico") 2 1, auto;
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
@@ -107,6 +107,14 @@ h3 {
 }
 
 h4 {
+  font-family: "Poppins", serif;
+  color: #5a4d43eb;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+h5 {
+  color: #5a4d43eb;
   font-family: "Poppins", serif;
   color: #5a4d43eb;
   letter-spacing: 1px;
