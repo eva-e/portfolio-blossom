@@ -73,7 +73,8 @@ a {
 /* Main styling use body for paragraph text*/
 body {
   background: var(--bg-primary);
-  color: #8dd799;
+  /* color: #8dd799; */
+  color: #8cfa9e;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   cursor: url("../assets/favicon/favicon2.ico") 2 1, auto;
@@ -213,7 +214,7 @@ h5 {
 .avatar-text h1 {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #ff91b6;
+  color: #ff91b5;
 }
 
 .avatar-text h2 {
@@ -224,7 +225,7 @@ h5 {
 .avatar-text h3 {
   font-size: 0.8rem;
   font-weight: 400;
-  color: #8dd799;
+  color: #8ce799;
 }
 
 /* .outlined-word {
