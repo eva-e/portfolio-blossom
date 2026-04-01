@@ -190,8 +190,8 @@ h5 {
 
 /* Avatar image */
 .avatar {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   outline: 4px solid #ffa7c5;
