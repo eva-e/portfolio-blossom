@@ -317,7 +317,6 @@ h5 {
   left: 0;
   right: 0;
   z-index: 20;
-  background: #fff2ef;
 }
 
 .navbar .container {
@@ -332,7 +331,7 @@ h5 {
 .navbar .nav-menu {
   display: flex;
   align-items: center;
-  background: #fff2ef;
+
   letter-spacing: 1px;
   align-self: flex-end;
   padding-bottom: 3.21px;
