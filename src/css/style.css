@@ -93,6 +93,13 @@ h1 {
   font-family: "Syne", serif;
   color: #5a4d43eb;
   letter-spacing: 1px;
+  font-weight: 600;
+}
+
+#evanthia-font {
+  font-family: "Syne", serif;
+  color: #5a4d43eb;
+  letter-spacing: 1px;
   font-weight: 800;
 }
 /* Home Heading 2 */
