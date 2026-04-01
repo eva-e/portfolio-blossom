@@ -78,10 +78,9 @@ a {
 body {
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: cover;
   background-image: url("../assets/backgroundimage.png");
   background-image: cover;
-  background-size: auto;
+
   /* color: #8dd799; */
   color: #8cfa9e;
   font-family: "Poppins", sans-serif;
