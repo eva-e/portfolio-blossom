@@ -74,7 +74,7 @@ a {
 
 /* Main styling use body for paragraph text*/
 body {
-  background-image: url("assets/backgroundimage.png");
+  background-image: url("../assets/backgroundimage.png");
   /* color: #8dd799; */
   color: #8cfa9e;
   font-family: "Poppins", sans-serif;
