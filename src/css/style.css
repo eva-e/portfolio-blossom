@@ -12,6 +12,7 @@
 
 /* variables */
 :root {
+  background-image: url("assets/backgroundimage.png");
   /* Colors */
   /* #94de9a green */
   --primary-color: #ff91b6;
@@ -72,12 +73,15 @@ a {
 
 /* Main styling use body for paragraph text*/
 body {
-  background: var(--bg-primary);
+  background-image: url("assets/backgroundimage.png");
+  background-image: cover;
   /* color: #8dd799; */
   color: #8cfa9e;
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
-  cursor: url("../assets/favicon/favicon2.ico") 2 1, auto;
+  cursor:
+    url("../assets/favicon/favicon2.ico") 2 1,
+    auto;
   overflow-x: hidden;
   overflow-y: auto;
   display: flex;
