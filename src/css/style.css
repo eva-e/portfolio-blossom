@@ -94,14 +94,14 @@ body {
 /* Home Heading 1 */
 h1 {
   font-family: "Syne", serif;
-  color: #5a4d43eb;
+  color: #ffffffeb;
   letter-spacing: 1px;
   font-weight: 600;
 }
 
 #evanthia-font {
   font-family: "Syne", serif;
-  color: #5a4d43eb;
+  color: #ffffffeb;
   letter-spacing: 1px;
   font-weight: 800;
 }
@@ -127,9 +127,8 @@ h4 {
 }
 
 h5 {
-  color: #5a4d43eb;
+  color: #ffffffeb;
   font-family: "Syne", serif;
-  color: #5a4d43eb;
   letter-spacing: 1px;
   font-weight: 600;
 }
