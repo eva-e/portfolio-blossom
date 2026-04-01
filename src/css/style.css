@@ -15,6 +15,7 @@
 :root {
   background-image: url("assets/backgroundimage.png");
   background-size: cover;
+  background-position: 0 0;
   /* Colors */
   /* #94de9a green */
   --primary-color: #ff91b6;
