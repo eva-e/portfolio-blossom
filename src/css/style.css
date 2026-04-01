@@ -76,6 +76,9 @@ a {
 
 /* Main styling use body for paragraph text*/
 body {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
   background-image: url("../assets/backgroundimage.png");
   background-image: cover;
   background-size: auto;
