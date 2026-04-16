@@ -13,31 +13,18 @@
 
 /* variables */
 :root {
-  background-image: url("assets/backgroundimage.png");
-  background-size: cover;
-  background-position: 0 0;
   /* Colors */
   /* #94de9a green */
   --primary-color: #ff91b6;
-  --secondary-color: #8dd799;
+  --secondary-color: #ffffff;
   --bg-primary: #fff2ef;
   --text-color: #53504c;
   --text-color-two: #ffffff;
-  --bg-secondary: #8dd799;
+  --bg-secondary: #ffffff;
   --card-background: #f4f4f4;
   --bg-secondary-two: #ff91b6;
 
-  --shadow: 0 10px 40px rgba(255, 143, 219, 0.2);
-
   /* Font Weight */
-  --weight-small: 400;
-  --weight-semibold: 600;
-  --weight-bold: 800;
-
-  /* Max width */
-  --width-small: 600px;
-  --width-medium: 1100px;
-  --width-large: 1300px;
 }
 
 [data-theme="dark"] {
@@ -76,11 +63,8 @@ a {
 
 /* Main styling use body for paragraph text*/
 body {
-  background-repeat: no-repeat;
-  background-position: 0 0;
   background-image: url("../assets/backgroundimage.png");
-  background-image: cover;
-
+  background-position: 82% 28%;
   /* color: #8dd799; */
   color: #8cfa9e;
   font-family: "Poppins", sans-serif;
@@ -108,6 +92,7 @@ h1 {
   font-family: "Syne", serif;
   color: #ffffffeb;
   letter-spacing: 1px;
+  text-align: center;
   font-weight: 800;
 }
 /* Home Heading 2 */
@@ -344,22 +329,27 @@ h5 {
 
 .navbar .nav-link {
   margin: 0 1rem;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-weight: 500;
-  font-family: "Poppins";
-  color: #8dd799;
+  font-family: "Syne";
+  color: #ffffff;
   padding: 8px 9px;
   border-radius: 20px;
   padding: 8px 12px;
 }
 
 .navbar .nav-link:hover {
-  outline: 2px solid #ffd4e1; /* outlines the link */
+  background-color: #8cfa9e;
+  transition: all 0.3s ease-in-out;
+  transition:
+    all 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
+  /* outline: 2px solid #ffd4e1; outlines the link */
 }
 
 .navbar #logo img {
   display: block;
-  width: 110px;
+  width: 180px;
 }
 
 .navbar .btn {
@@ -397,7 +387,7 @@ h5 {
 }
 
 .profile-image {
-  width: 150px;
+  width: 190px;
   border-radius: 50%;
   animation: bounce 1s infinite alternate;
 }

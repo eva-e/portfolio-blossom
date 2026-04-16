@@ -67,7 +67,9 @@ h5 {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  transition:
+    all 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
 }
 
 /* Hover border colour for about me button */
