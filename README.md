@@ -2,7 +2,7 @@
   <img src="/portfolio-evanthia/images/evalogo.png" width="300">
 </p>
 
-## Design Portfolio Website (_Development in Progress_)
+## Art/Design Portfolio Website (_Development in Progress_)
 
 <p align="left">Folder: /portfolio-evanthia</p>
 <p align="left">Το ψηφιακό μου πορτφόλιο με γραφιστικά έργα και ψηφιακά δημιουργικά πρότζεκτ.</p>
