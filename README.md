@@ -9,6 +9,7 @@
 <p align="left">🍀My Design Portfolio & Personal Website | Multimedia/Visual Artist | Poetry Through Art & Design🌸</p>
 
 <p align="left">Portfolio Design Notes:</p>
+<p align="left">A blend of frutiger aero, dango colour palette, minecraft and nature, in the form of a mixed media website layout. </p>
 
 <p align="left">"Let all that you do be done with love." I Corinthians 16:14 <br>
 🍡</p>
