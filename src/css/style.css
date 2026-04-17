@@ -323,17 +323,17 @@ h5 {
 .navbar .nav-menu {
   display: flex;
   align-items: center;
-
   letter-spacing: 1px;
   align-self: flex-end;
   padding-bottom: 3.21px;
+  margin-left: 36%;
 }
 
 .navbar .nav-link {
   margin: 0 1rem;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   font-weight: 500;
-  font-family: "Syne", sans-serif;
+  font-family: "Minecraft", sans-serif;
   font-weight: 700;
   color: #ffffff;
   padding: 8px 15px;
@@ -422,21 +422,16 @@ h5 {
   font-size: 0.9rem;
 }
 
-/* hamburger */
-.hamburger {
-  margin-bottom: 0.1rem;
-  display: none;
-}
-
-.bar {
+/* .bar {
   display: block;
+  color: white;
   width: 23px;
   height: 3px;
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
-  /* background-color: var(--bg-secondary); */
-}
+  background-color: var(--bg-secondary);
+} */
 
 /* Hero section */
 #hero {
@@ -552,6 +547,23 @@ h5 {
   }
 }
 
+/* hamburger */
+.hamburger {
+  margin-bottom: 0.1rem;
+  display: none;
+}
+
+.bar {
+  display: block;
+  color: white;
+  width: 23px;
+  height: 3px;
+  margin: 4px auto;
+  transition: all 0.3s ease-in-out;
+  border-radius: 30px;
+  background-color: var(--bg-secondary);
+}
+
 @media (max-width: 768px) {
 }
 
@@ -564,7 +576,7 @@ h5 {
     width: calc(80% - 10px);
     transition: 0.3s;
     color: #ffffff;
-    box-shadow: var(--shadow);
+    box-shadow: white;
     padding: 2rem;
     border-radius: 5px;
     align-items: flex-start;
@@ -573,6 +585,7 @@ h5 {
   .navbar .btn {
     margin: 0;
     margin-top: 1rem;
+    color: white;
   }
 
   .nav-menu.active {
@@ -582,7 +595,7 @@ h5 {
   .nav-menu .nav-link {
     color: #ffffff;
     font-size: 0.9rem;
-    margin: 0 0.2rem;
+    margin: 0 0.4rem;
   }
 
   .nav-menu li {
@@ -598,7 +611,8 @@ h5 {
   }
   /* change position of burger menu */
   .hamburger {
-    color: #8dd799;
+    color: #ffffff;
+    font-family: "Minecraft";
     margin-top: 16px;
     display: block;
     cursor: pointer;
