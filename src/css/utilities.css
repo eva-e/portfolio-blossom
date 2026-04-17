@@ -70,7 +70,7 @@ h5 {
   transition:
     all 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
-  background-color: #8cfa9eb0;
+  background-color: #8cfa9ed6;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 30px;
@@ -83,6 +83,8 @@ h5 {
   position: relative;
   overflow: hidden;
 }
+/* https://hype4.academy/tools/glassmorphism-generator */
+/* Glass effect from hype4 */
 
 /* Hover border colour for about me button */
 .btn-secondary:hover {

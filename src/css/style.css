@@ -582,6 +582,11 @@ h5 {
     align-items: flex-start;
   }
 
+  body {
+    background-image: url("../assets/backgroundimage2.png");
+    background-position: 82% 28%;
+    background-size: cover;
+  }
   .navbar .btn {
     margin: 0;
     margin-top: 1rem;
@@ -590,6 +595,13 @@ h5 {
 
   .nav-menu.active {
     right: 20px;
+    background-color: #8cfa9e64;
+    /* #9efa8cb0 */
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
   }
 
   .nav-menu .nav-link {
@@ -602,6 +614,7 @@ h5 {
     margin-bottom: 0.5rem;
     width: 100%;
     text-align: center;
+    line-height: 40px;
   }
 
   .nav-menu .btn {
