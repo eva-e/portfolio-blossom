@@ -70,29 +70,29 @@ h5 {
   transition:
     all 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
-  background: rgba(255, 255, 255, 0.066);
+  background-color: #8cfa9eb0;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.657);
+  border-radius: 30px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0),
-    inset 0 1px 0 rgba(255, 255, 255, 0.208),
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 12px 6px rgba(255, 255, 255, 0.494);
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
   position: relative;
   overflow: hidden;
 }
 
 /* Hover border colour for about me button */
 .btn-secondary:hover {
-  border: 1px solid #ffacc8;
-
+  border: 1px solid transparent;
+  background-color: transparent;
   box-shadow:
     0 8px 32px rgba(0, 0, 0, 0),
-    inset 0 1px 0 #ffacc8,
+    inset 0 1px 0 rgba(255, 255, 255, 0.322),
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 12px 6px #ffacc8;
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.146);
 }
 
 /* Dark mode toggle */

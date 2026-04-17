@@ -62,8 +62,9 @@ a {
 }
 
 /* Main styling use body for paragraph text*/
+
 body {
-  background-image: url("../assets/backgroundimage.png");
+  background-image: url("../assets/backgroundimage2.png");
   background-position: 82% 28%;
   /* color: #8dd799; */
   line-height: 1.5;
@@ -332,26 +333,38 @@ h5 {
   margin: 0 1rem;
   font-size: 0.8rem;
   font-weight: 500;
-  font-family: "Syne";
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
   color: #ffffff;
-  padding: 8px 9px;
-  border-radius: 20px;
-  padding: 8px 12px;
+  padding: 8px 15px;
+  border-radius: 33px;
+  padding: 8px 20px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0),
+    inset 0 1px 0 rgba(255, 255, 255, 0.322),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.146);
 }
 
 .navbar .nav-link:hover {
-  background-color: #8cfa9e;
+  background-color: #8cfa9eb0;
   transition: all 0.3s ease-in-out;
   transition:
     all 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.6);
+
   /* outline: 2px solid #ffd4e1; outlines the link */
 }
 
 .glass-card {
   width: 240px;
   height: 360px;
-  background: rgba(255, 255, 255, 0.13);
+  background-color: #8cfa9e6f;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
