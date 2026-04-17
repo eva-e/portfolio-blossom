@@ -44,7 +44,7 @@ h5 {
   padding: 0.75rem 1.9rem;
   border-radius: 20px;
   font-size: 0.83rem;
-  text-transform: uppercase;
+
   /* font-style: italic; */
   transition: 0.3s;
 }
@@ -59,10 +59,10 @@ h5 {
   top: -18px;
   background-color: #ffd4e1e5;
   /* text colour  */
-  color: #ff91b6;
+  color: #ffffff;
   /* fe9ec5 */
-  font-family: "Poppins";
-  font-weight: 600;
+  font-family: "Minecraft", sans-serif;
+  font-weight: 700;
   display: inline-flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +74,7 @@ h5 {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.657);
   box-shadow:
     0 8px 32px rgba(0, 0, 0, 0),
     inset 0 1px 0 rgba(255, 255, 255, 0.208),
@@ -86,7 +86,13 @@ h5 {
 
 /* Hover border colour for about me button */
 .btn-secondary:hover {
-  box-shadow: 0 0 0 5px #ffffff69;
+  border: 1px solid #ffacc8;
+
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0),
+    inset 0 1px 0 #ffacc8,
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 12px 6px #ffacc8;
 }
 
 /* Dark mode toggle */

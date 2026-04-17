@@ -528,8 +528,8 @@ h5 {
 
 #footer p {
   font-size: 0.6rem;
-  color: #8dd799;
-  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-family: "Minecraft", sans-serif;
 }
 
 @media (max-width: 1000px) {
@@ -550,6 +550,7 @@ h5 {
     flex-direction: column;
     width: calc(80% - 10px);
     transition: 0.3s;
+    color: #ffffff;
     box-shadow: var(--shadow);
     padding: 2rem;
     border-radius: 5px;
@@ -566,7 +567,7 @@ h5 {
   }
 
   .nav-menu .nav-link {
-    color: #8dd799;
+    color: #ffffff;
     font-size: 0.9rem;
     margin: 0 0.2rem;
   }
@@ -592,7 +593,7 @@ h5 {
   }
 
   .hamburger.active {
-    border: 1px dotted gray;
+    border: 1px dotted rgb(255, 255, 255);
   }
 
   .hamburger.active .bar:nth-child(2) {
