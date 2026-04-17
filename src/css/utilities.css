@@ -53,7 +53,7 @@ h5 {
   background: var(--primary-color);
   color: #000000;
 }
-/* about me button */
+/* PROJECTS button */
 .btn-secondary {
   position: relative;
   top: -18px;
@@ -70,31 +70,33 @@ h5 {
   transition:
     all 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
-  background-color: #8cfa9ed6;
+  background-color: rgba(255, 255, 255, 0.026);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0.1),
-    inset 0 1px 0 rgba(255, 255, 255, 0.5),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
+    0 8px 32px rgba(0, 0, 0, 0),
+    inset 0 1px 0 rgba(255, 255, 255, 0.507),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.315),
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.493);
   position: relative;
   overflow: hidden;
 }
 /* https://hype4.academy/tools/glassmorphism-generator */
 /* Glass effect from hype4 */
-
+/* OTHER BUTTONS INCLUDING THE HOMPEPAGE BUTTON */
 /* Hover border colour for about me button */
 .btn-secondary:hover {
-  border: 1px solid transparent;
-  background-color: transparent;
+  background-color: #8cfa9ed6;
+  transition: all 0.3s ease-in-out;
+  transition:
+    all 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
   box-shadow:
-    0 8px 32px rgba(0, 0, 0, 0),
-    inset 0 1px 0 rgba(255, 255, 255, 0.322),
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-    inset 0 0 12px 6px rgba(255, 255, 255, 0.146);
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
 }
 
 /* Dark mode toggle */

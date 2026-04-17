@@ -64,7 +64,7 @@ a {
 /* Main styling use body for paragraph text*/
 
 body {
-  background-image: url("../assets/backgroundimage2.png");
+  background-image: url("../assets/backgroundimage3.png");
   background-position: 82% 28%;
   /* color: #8dd799; */
   line-height: 1.5;
@@ -79,12 +79,24 @@ body {
   margin: 0;
 }
 
+/* .header-container h5 {
+  font-weight: 800;
+} */
+
 /* Home Heading 1 */
 h1 {
   font-family: "Syne", serif;
   color: #ffffffeb;
   letter-spacing: 1px;
   font-weight: 600;
+  border-radius: 40px;
+  padding: 11px;
+  white-space: nowrap;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
 }
 
 #evanthia-font {
@@ -96,10 +108,17 @@ h1 {
 }
 /* Home Heading 2 */
 h2 {
-  font-family: "Poppins", serif;
+  font-family: "Syne", sans-serif;
   color: #5a4d43eb;
   letter-spacing: 1px;
   font-weight: 400;
+  /* border-radius: 40px;
+  padding: 11px;
+  box-shadow:
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 12px 6px rgba(255, 255, 255, 0.827); */
 }
 /* All my page headings, About, Projects, Photography */
 h3 {
@@ -181,18 +200,15 @@ h5 {
 
 /* Avatar image */
 .avatar {
-  width: auto;
-  height: auto;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   object-fit: cover;
-  outline: 4px solid #ffa7c5;
+  outline: 4px solid #ffffff;
   align-self: flex-start;
-  margin-top: 47px;
-  margin-left: 45px;
 }
 
 .avatar-container {
-  text-align: left;
   display: flex;
   align-items: flex-start;
   max-width: 90%;
@@ -247,8 +263,7 @@ h5 {
   margin-top: 9px;
   color: #ffffffeb;
   font-family: "Syne", sans-serif;
-
-  font-weight: 300;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -326,7 +341,7 @@ h5 {
   letter-spacing: 1px;
   align-self: flex-end;
   padding-bottom: 3.21px;
-  margin-left: 36%;
+  /* margin-right: 28%; */
 }
 
 .navbar .nav-link {
@@ -345,7 +360,7 @@ h5 {
     inset 0 -1px 0 rgba(255, 255, 255, 0.1),
     inset 0 0 12px 6px rgba(255, 255, 255, 0.146);
 }
-
+/* NAV BUTTONS */
 .navbar .nav-link:hover {
   background-color: #8cfa9eb0;
   transition: all 0.3s ease-in-out;
@@ -411,6 +426,10 @@ h5 {
 .navbar #logo img {
   display: block;
   width: 180px;
+}
+
+#logo {
+  box-shadow: none;
 }
 
 .navbar .btn {
@@ -581,11 +600,27 @@ h5 {
     border-radius: 5px;
     align-items: flex-start;
   }
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    outline: 4px solid #ffffff;
+    /* align-self: flex-start; */
+    margin-left: 40px;
+  }
+
+  /* #mobile-name {
+    font-size: 15px;
+    padding: 22px;
+    text-align: left;
+  } */
 
   body {
-    background-image: url("../assets/backgroundimage2.png");
-    background-position: 82% 28%;
+    background-image: url("../assets/backgroundimage3.png");
+    background-position: 71.1%;
     background-size: cover;
+    background-attachment: scroll;
   }
   .navbar .btn {
     margin: 0;
@@ -593,9 +628,13 @@ h5 {
     color: white;
   }
 
+  .btn-secondary {
+    border-radius: 50px;
+  }
+
   .nav-menu.active {
     right: 20px;
-    background-color: #8cfa9e64;
+    background-color: #8cfa9e41;
     /* #9efa8cb0 */
     box-shadow:
       0 8px 32px rgba(0, 0, 0, 0.1),
@@ -654,7 +693,9 @@ h5 {
     display: grid;
     grid-template-columns: 1fr;
   }
-
+  footer {
+    font-family: "Minecraft", sans-serif;
+  }
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
