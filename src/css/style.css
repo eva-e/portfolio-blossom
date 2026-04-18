@@ -65,7 +65,10 @@ a {
 
 body {
   background-image: url("../assets/backgroundimage3.png");
-  background-position: 82% 28%;
+  /* background-position: 82% 28%; */
+  background-size: cover;
+  background-position: center;
+  /* background-repeat: no-repeat; */
   /* color: #8dd799; */
   line-height: 1.5;
   cursor:
@@ -78,6 +81,14 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+
+/* .about-page {
+  background-image: url("../assets/backgroundimage3.png");
+  background-size: 180%;
+  background-position: 87% 30%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+} */
 
 /* .header-container h5 {
   font-weight: 800;
@@ -211,10 +222,17 @@ h5 {
 .avatar-container {
   display: flex;
   align-items: flex-start;
-  max-width: 90%;
-  width: 800px;
-  margin: 140px auto;
+
   gap: 60px;
+  max-width: 800px;
+  width: 90%;
+  margin: 100px auto 60px;
+}
+
+.page-content {
+  max-width: 800px;
+  margin: 120px auto 60px;
+  padding: 0 20px;
 }
 
 .avatar-text {
@@ -225,6 +243,8 @@ h5 {
   text-align: left;
   justify-content: flex-start;
   margin-top: 45px;
+
+  /* padding: 20px; */
 }
 
 .avatar-text h1 {
@@ -327,12 +347,12 @@ h5 {
 }
 
 .navbar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   z-index: 20;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar .nav-menu {
@@ -342,6 +362,7 @@ h5 {
   align-self: flex-end;
   padding-bottom: 3.21px;
   /* margin-right: 28%; */
+  /* margin-left: auto; */
 }
 
 .navbar .nav-link {
@@ -441,6 +462,13 @@ h5 {
   font-size: 0.9rem;
 }
 
+.hamburger {
+  display: none;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
 /* .bar {
   display: block;
   color: white;
@@ -533,6 +561,7 @@ h5 {
   left: 0;
   width: 100%;
   padding: 10px;
+  box-shadow: none;
 }
 
 #footer .container {
@@ -543,6 +572,7 @@ h5 {
   text-align: left;
   width: 100%;
   padding-left: -1px;
+  box-shadow: none;
 }
 
 #footer a {
@@ -557,6 +587,8 @@ h5 {
   font-size: 0.6rem;
   color: #ffffff;
   font-family: "Minecraft", sans-serif;
+  box-shadow: none;
+  background-color: transparent;
 }
 
 @media (max-width: 1000px) {
@@ -566,13 +598,7 @@ h5 {
   }
 }
 
-/* hamburger */
-.hamburger {
-  margin-bottom: 0.1rem;
-  display: none;
-}
-
-.bar {
+/* .bar {
   display: block;
   color: white;
   width: 23px;
@@ -581,7 +607,7 @@ h5 {
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
   background-color: var(--bg-secondary);
-}
+} */
 
 @media (max-width: 768px) {
 }
@@ -600,6 +626,36 @@ h5 {
     border-radius: 5px;
     align-items: flex-start;
   }
+
+  h1 {
+    white-space: normal;
+    padding: 18px;
+    overflow: hidden;
+    color: white;
+  }
+
+  h2 {
+    white-space: normal;
+  }
+
+  h5 {
+    white-space: normal;
+    text-shadow: 2px 2px 4px #8cfa9e;
+  }
+
+  p {
+    background-color: #8cfa9e71;
+    border-radius: 40px;
+    padding: 20px;
+    /* #9efa8cb0 */
+    box-shadow:
+      0 8px 32px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 0 12px 6px rgba(255, 255, 255, 0.827);
+    overflow: hidden;
+  }
+
   .avatar {
     width: 120px;
     height: 120px;
@@ -628,8 +684,18 @@ h5 {
     color: white;
   }
 
-  .btn-secondary {
-    border-radius: 50px;
+  .btn btn-secondary {
+    border-radius: 20px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 0.75rem 1.9rem;
+    border-radius: 20px;
+    font-size: 0.83rem;
+
+    /* font-style: italic; */
+    transition: 0.3s;
   }
 
   .nav-menu.active {
@@ -666,7 +732,7 @@ h5 {
     color: #ffffff;
     font-family: "Minecraft";
     margin-top: 16px;
-    display: block;
+    display: flex;
     cursor: pointer;
     padding: 0.2rem 0.4rem;
   }
@@ -695,7 +761,9 @@ h5 {
   }
   footer {
     font-family: "Minecraft", sans-serif;
+    box-shadow: none;
   }
+
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
